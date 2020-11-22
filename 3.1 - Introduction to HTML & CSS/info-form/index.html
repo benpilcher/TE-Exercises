@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <main>
+        <h2>Tell us about yourself!</h2>
+        <form method="POST" action="https://example.com/api/aboutyou">
+            <div>
+                <label for="userName">Name:</label>
+                <input id="userName" name="userName" type="text" />
+            </div>
+            <div>
+                <label for="userEmail">Email:</label>
+                <input id="userEmail" name="userEmail" type="email" />
+            </div>
+            <div>
+                <label for="userDateOfBirth">Date of birth:</label>
+                <input id="userDateOfBirth" name="userDateOfBirth" type="date" />
+            </div>
+            <div>
+                <label for="userFavoriteColor">Favorite color:</label>
+                <input id="userFavoriteColor" name="userFavoriteColor" type="text" />
+            </div>
+            <div>
+                <label for="userFavoriteNumber">Favorite number:</label>
+                <input id="userFavoriteNumber" name="userFavoriteNumber" type="number" />
+            </div>
+            <div>
+                <input id="dataConfirmation" name="dataConfirmation" value="confirm" type="checkbox" />
+                I confirm that all data is accurate.
+            </div>
+            <div>
+                <input type="submit" />
+            </div>
+        </form>
+    </main>
+</body>
+</html>
