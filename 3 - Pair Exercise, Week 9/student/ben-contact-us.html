@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+        <title>Info-form</title>
+        <link rel="stylesheet" href="ben-styles.css" />
+        <link rel="stylesheet" href="ben-grid.css" />
+    </head>
+
+    <body>
+        <div class="contact-us-container">
+            <header>
+                <img src="images/te-pops.png" alt="Tech Elevator Popsicle Logo">
+                <h1>Tech Elevator Popsicles</h1>
+            </header>
+
+            <nav id="site-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        
+            <form>
+                <h2>Contact Us</h2>
+                <label for="name">Name:</label>
+                </br>
+                <input id="name" name="name" type="text" required>
+                </br>
+                <label for="referral">How did you hear of us? </label>
+                </br>
+                <select id = "referralList" name="userSelect">
+                    <option value="1">Popsicle Monthly</option>
+                    <option value="2">Alumni</option>
+                    <option value="3">Google Search</option>
+                </select>
+                </br>
+                <label for="color">What color is your favorite popsicle?</label>
+                </br>
+                <input id="color" name="color" type="text" required>
+                </br>
+                <label for="textBox">Please let us know any comments you have. </label><br />
+                <textarea id="visitorComments" name="textbox" rows="10" cols="60"></textarea>
+                </br>
+                
+                <button class="submit-button">
+                    Submit
+                </button>
+
+            </form>
+
+            <footer>
+                &copy; Tech Elevator 2020
+            </footer>
+
+        </div>
+
+    </body>      
+
+</html>   
